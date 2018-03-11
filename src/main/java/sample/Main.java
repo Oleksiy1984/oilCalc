@@ -44,6 +44,7 @@ public class Main extends Application {
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
             primaryStage.show();
+            primaryStage.setMaximized(true);
         } catch (IOException e) {
             e.printStackTrace();
         }

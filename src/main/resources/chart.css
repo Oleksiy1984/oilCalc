@@ -1,0 +1,22 @@
+.default-color0.chart-series-line { -fx-stroke: transparent;
+
+}
+.default-color1.chart-series-line { -fx-stroke-width: 1;
+    -fx-stroke: blue; -fx-stroke-dash-array: 2 ; }
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: white, green;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px;
+}
+.default-color1.chart-line-symbol {
+    -fx-background-color: transparent, transparent;
+
+}
+.default-color0.chart-legend-item-symbol{
+    -fx-background-color: green;
+}
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: blue;
+}
